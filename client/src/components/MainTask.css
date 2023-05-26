@@ -1,0 +1,82 @@
+
+.container-head {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+
+    justify-content: space-around;
+    
+  }
+  
+  .inputTask {
+    display: flex;
+    align-items: center;
+    padding-left: 120px;
+    
+  }
+
+  #inputTasks {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  
+  .inputTask label {
+    margin-right: 10px;
+  }
+  
+  .inputTask input[type="text"],
+  .inputTask input[type="date"],
+  .inputTask select {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .submitTask button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submitTask button:hover {
+    background-color: #0056b3;
+  }
+  
+  .task-show {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  #selectStatus {
+    margin-left: 120px;
+  }
